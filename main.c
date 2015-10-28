@@ -13,7 +13,7 @@ void delay(int us)
 {
 	unsigned int i,j=0;
 	for(i=0;i<us;i++)
-	for(j=1000;j>0;j++);
+	for(j=10000;j>0;j++);
 }
 
 
